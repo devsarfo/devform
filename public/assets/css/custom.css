@@ -1,0 +1,63 @@
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+}
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  overflow: hidden;
+}
+.image-preview-input-title {
+    margin-left:2px;
+    overflow: hidden;
+}
+
+.error {
+  color: #F00;
+}
+
+@media only screen and (min-width:900px) {
+    .hide-on-desktop, * [aria-labelledby='hide-on-desktop'] {
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+.hide{
+  display: none;
+}
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+
+  &:hover {
+    color: #f00;
+  }
+}
+
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+
+  &:hover {
+    color: #00f;
+  }
+}
