@@ -1,5 +1,3 @@
-# ![DevForm App]
-
 # Getting started
 
 ## Installation
