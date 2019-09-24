@@ -11,7 +11,7 @@ Clone the repository
 
 Switch to the repo folder
 
-    cd devsarfo
+    cd devform
 
 Install all the dependencies using composer
 
